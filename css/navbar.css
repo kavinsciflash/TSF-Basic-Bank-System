@@ -1,0 +1,37 @@
+.nav-link{
+	margin-right: 15px;
+	color:white;
+	letter-spacing: 0.5px;
+	transition: 0.5s;
+}
+.nav-link:hover{
+	color: black;
+}
+.navbar-brand{
+	color: white;
+	letter-spacing: 0.5px;
+}
+.navbar-brand:hover{
+	color: white;
+}
+h2{
+	color: black;
+	letter-spacing: 0.5px;
+	font-family: raleway;
+}
+.nav-link:hover{
+	transform: scale(1.2);
+}
+@media only screen and (orientation:portrait){
+	.nav-link{
+		margin-right: 15px;
+		color:white;
+		letter-spacing: 0.5px;
+		transition: 0.5s;
+	}
+	.nav-link:hover{
+		transform: scale(1.1);
+		transform-origin: -10px;
+		font-size: medium;
+	}
+}
